@@ -6,15 +6,15 @@ import java.util.Random;
 
 public class DoubleOrNothing {
 
-  private static int startPoints = 10;
+/*   private static int startPoints = 10;
   private Scanner scanner = new Scanner(System.in);
   private Random random = new Random();
   private int current = startPoints;
-  private boolean isStillPlaying = true;
+  private boolean isStillPlaying = true; /* */ 
 
-  public void playGame() {
+  public void playGame() { 
 
-    printWelcome();
+   /*printWelcome();
     askUserToContinue();
 
     while (this.isStillPlaying) {
@@ -66,10 +66,10 @@ public class DoubleOrNothing {
 
   protected boolean getIsStillPlaying() {
     return this.isStillPlaying;
-  }
+  } */
 
 
-/*     Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
     Random random = new Random();
 
     System.out.println(" --Welcome to Double or Nothing!-- ");
@@ -87,6 +87,6 @@ public class DoubleOrNothing {
       System.out.println("Sorry, you didnt win this time");
     }
 
-    scanner.close(); */
-
+    scanner.close();
+  }
 }

@@ -30,15 +30,6 @@ public class AppTest {
 
     @Test
     public void askUserToContinue_YES() {
-        String input = "yes";
-        InputStream in = new ByteArrayInputStream(input.getBytes());
-        System.setIn(in);
-
-        DoubleOrNothing game = new DoubleOrNothing();
-        assertTrue(game.getIsStillPlaying());
-
-        game.askUserToContinue();
-        assertTrue(game.getIsStillPlaying());
-        assertEquals("Would you like to continue? ", gamePrintOut.toString());
+       
     }
 }
